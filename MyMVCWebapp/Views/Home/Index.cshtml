@@ -10,3 +10,10 @@ Hello ASP
 <a href="/Home/About">About</a>
 <a href="/Home/About/1">Contact</a>
 </br>
+
+<form action="/Home/Index" method="post">
+    Name: <input name="personName" />
+    <input type="submit" name="btnSubmit" value="Say Hello" />
+</form>
+
+Id = @ViewData["id"]
